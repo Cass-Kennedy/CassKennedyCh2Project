@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 	int sampleSize = 16500;
+	//This is the number of customers included in the survey.
 	float regularCustomerProportion = 0.15;
 	float citrusProportion = 0.58;
 	//Originally regularCustomerProportion and citrusProportion were percentages. I divided them by 100 to make them proportions and so that they were easier to use in calulations.
