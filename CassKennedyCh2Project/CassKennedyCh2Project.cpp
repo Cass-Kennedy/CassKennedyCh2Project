@@ -12,5 +12,6 @@ int main()
 	//The mileage numbers (urban and highway) are in miles per gallon.
 	cout << "You can expect to travel " << gasCapacity * urbanMileage << " miles in town off of a full tank of gas." << endl;
 	cout << "You can expect to travel " << gasCapacity * highwayMileage << " miles on the highway off of a full tank of gas." << endl;
+	//Calculates and displays the gas mileage from a full tank in the city and on the highway.
 	return 0;
 }
